@@ -1,3 +1,5 @@
+<?php $players = 'true'; ?>
+
 <?php include('header.php'); ?>
 
 <div class="container-fluid container-main profile"><!-- main container start -->
@@ -67,38 +69,46 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<div class="row w3-padding-0">
-							<div class="col-md-3 col-sm-3 col-xs-3 text-center">
-								<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=333333&txtclr=ffffff&txt=Player+pic&w=150&h=150&txttrack=0" style="width:150px; height:auto;">
-								<label>Player Name</label>
-							</div>	
-							<div class="col-md-9 col-sm-9 col-xs-9">
-								<div class="table-responsive">
-									<table class="table">
-										<tr class="">
-											<td colspan="2" class="text-center w3-text-white w3-dark-grey">Player Information</td>
-										</tr>
-										<tr class="w3-light-green">
-											<td>Team :</td>
-											<td>Al-Ahli</td>
-										</tr>
-										<tr class="w3-light-teal">
-											<td>Natinality :</td>
-											<td>Syrian</td>
-										</tr>
-										<tr class="w3-light-teal">
-											<td>Position :</td>
-											<td>Striker</td>
-										</tr>
-										<tr class="w3-light-teal">
-											<td>Height :</td>
-											<td>198 cm</td>
-										</tr>
-										<tr class="w3-light-teal">
-											<td>Weight :</td>
-											<td>72 kg</td>
-										</tr>
-									</table>
+							<div class="row-height">
+								<div class="col-md-4 col-sm-4 col-xs-4 text-center col-height parent">
+									<div class="child">
+										<img class="img-responsive center-block" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=333333&txtclr=ffffff&txt=Player+pic&w=200&h=200&txttrack=0" style="width:200px; height:auto;">
+										<label>Player Name</label>	
+									</div>
 								</div>	
+								<div class="col-md-12 col-sm-12 col-xs-12">
+									<div class="table-responsive">
+										<table class="table w3-dark-grey">
+											<tr class="">
+												<td colspan="2" class="text-center">Player Information</td>
+											</tr>
+											<tr class="w3-pale-green">
+												<td class="col-xs-3">Team :</td>
+												<td>Al-Ahli</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Natinality :</td>
+												<td>Syrian</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Position :</td>
+												<td>Striker</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Height :</td>
+												<td>198 cm</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Weight :</td>
+												<td>72 kg</td>
+											</tr>
+										</table>
+									</div>	
+								</div>			
 							</div>	
 						</div>
 					</div>	
@@ -107,16 +117,46 @@
 
 					<div class="w3-white col-md-12 col-sm-12 col-xs-12 w3-card-1 padding-15">
 						<div class="row w3-padding-0">
-							<div class="col-md-3 col-sm-3 col-xs-3 text-center">
-								<img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=333333&txtclr=ffffff&txt=Player+pic&w=150&h=150&txttrack=0" style="width:150px; height:auto;">
-								<label>Player Name</label>
-							</div>	
-							<div class="col-md-9 col-sm-9 col-xs-9">
-								<table class="">
-									<tr class="w3-dark-grey">
-										<td colspan="2" class="text-center w3-text-white">Player Information</td>
-									</tr>
-								</table>
+							<div class="row-height">
+								<div class="col-md-4 col-sm-4 col-xs-4 text-center col-height parent">
+									<div class="child">
+										<img class="img-responsive center-block" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=333333&txtclr=ffffff&txt=Player+pic&w=200&h=200&txttrack=0" style="width:200px; height:auto;">
+										<label>Player Name</label>	
+									</div>
+								</div>	
+								<div class="col-md-12 col-sm-12 col-xs-12">
+									<div class="table-responsive">
+										<table class="table w3-dark-grey">
+											<tr class="">
+												<td colspan="2" class="text-center">Player Information</td>
+											</tr>
+											<tr class="w3-pale-green">
+												<td class="col-xs-3">Team :</td>
+												<td>Al-Ahli</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Natinality :</td>
+												<td>Syrian</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Position :</td>
+												<td>Striker</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Height :</td>
+												<td>198 cm</td>
+											</tr>
+											<tr><td></td><td></td></tr>
+											<tr class="w3-pale-green">
+												<td>Weight :</td>
+												<td>72 kg</td>
+											</tr>
+										</table>
+									</div>	
+								</div>			
 							</div>	
 						</div>
 					</div>	

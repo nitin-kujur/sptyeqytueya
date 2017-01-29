@@ -151,7 +151,13 @@
 		  				</div>
 		  			</div>
 			  	</div>
-
 			  </div>
+			  <?php if( isset( $players )){ ?>
+			  <div class="container-fluid w3-light-grey w3-text-dark-grey hidden-xs">
+			  	<div class="container-fluid">
+			  		<h4>PLAYERS</h4>
+			  	</div>
+			  </div>
+			  <?php } ?>
 			</nav>
 		<!-- -----------Nav-Bar------------ -->

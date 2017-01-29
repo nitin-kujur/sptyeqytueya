@@ -185,6 +185,9 @@ body,html{
 				.w3-green3{
 					background-color:  rgb(0,80,36) !important;
 				}
+				.w3-pale-green{
+					background-color:  rgb(137,170,153) !important;
+				}
 				.w3-purple{
 					background: #8b9bbe !important;
 				}
@@ -202,7 +205,23 @@ body,html{
 					border-top-left-radius:5px !important;
 					border-bottom-left-radius:5px !important;
 				}
-
+				.vertical-center{
+					position: relative;
+			        top: 50%;
+			        transform: translateY(-50%);
+			        -webkit-transform: translateY(-50%);
+			        -ms-transform: translateY(-50%);
+				}
+				.parent {
+				  position: relative;
+				  height: inherit;
+				}
+				.child {
+				  position: absolute;
+				  top: 50%;
+				  /*left: 50%;*/
+				  transform: translate(0%, -50%);
+				}
 				a, a:active, a:focus{
 					outline: none !important;
 					text-decoration: none !important;
