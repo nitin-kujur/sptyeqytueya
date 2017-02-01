@@ -6,7 +6,7 @@
 
 <div class="jumbotron prof-jumbo w3-white">
 	<div class="container-fluid ">
-		<div class="hidden-xs"><br><br><br><br><br></div>
+		<div class="hidden-xs"><br><br></div><br><br><br><br>
 
 			<div class="col-md-4 padding-25">  <!-- col 4 start -->
 

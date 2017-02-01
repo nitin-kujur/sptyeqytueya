@@ -78,20 +78,13 @@ body,html{
 					/*font-weight: bold !important;*/
 					font-family: Roboto;
 				}
-				.bg{
-					background: url('../images/home_students1360x721.jpg') no-repeat center center;
-				  position: fixed;
-				  width: 100%;
-				  height: 100%;
-				  top:0;
-				  left:0;
-				  z-index: -1;
+				.slanted-green{
+					background: url('../images/green-ribbon.jpg') no-repeat;
+					background-size: cover;
 				}
-				.inMedia{
-					background: url('../images/chicago skyline grey.png') no-repeat center center;
-				  /*width: 100%;
-				  height: 100%;*/
-				  background-size: cover;
+				.slanted-grey{
+					background: url('../images/grey-ribbon.jpg') no-repeat;
+					background-size: cover;
 				}
 				.bg-transparent{
 					text-shadow: #444 0 1px 1px;

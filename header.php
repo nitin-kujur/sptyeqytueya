@@ -123,7 +123,7 @@
 					</ul>
 				</div>
 			  </div>
-			  <div class="container-fluid w3-green2 w3-text-white w3-padding hidden-xs">
+			  <div class="container-fluid w3-green2 slanted-green w3-text-white w3-padding hidden-xs">
 			  	<div class="container-fluid">
 		  			<div class="col-md-61 col-sm-31 w3-left w3-large">
 		  				<a href="#"><i class="fa fa-home w3-hover-text-yellow"></i></a> |
@@ -153,7 +153,7 @@
 			  	</div>
 			  </div>
 			  <?php if( isset( $players )){ ?>
-			  <div class="container-fluid w3-light-grey w3-text-dark-grey hidden-xs">
+			  <div class="container-fluid w3-light-grey slanted-grey w3-text-dark-grey hidden-xs1">
 			  	<div class="container-fluid">
 			  		<h4>PLAYERS</h4>
 			  	</div>
