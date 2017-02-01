@@ -38,7 +38,7 @@
 								</div>
 								<div class="col-xs-6 col-height">
 									<label><small>Message *</small></label>	
-									<textarea class="form-control" style="height:88%;">	</textarea>				
+									<textarea class="form-control" style="height:88%;"></textarea>				
 								</div>						
 							</div>				
 						</div>	
